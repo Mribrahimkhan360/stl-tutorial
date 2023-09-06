@@ -80,10 +80,25 @@ int main()
 //cout << d[2];
 
 ///Update
+//
+//vector <int> data = {1,2,3,4,5,6,7,8,9};
+//data[2]=8;
+//print(data);
 
-vector <int> data = {1,2,3,4,5,6,7,8,9};
-data[2]=8;
+vector <int> data={1,3,2,4};
+vector <int> data2={7,5,6,8,9};
+
+cout << "Before swap \n";
 print(data);
+print(data2);
+
+data.swap(data2);
+cout << "after swap \n";
+print(data);
+print(data2);
+
+
+
 return 0;
 
 }
