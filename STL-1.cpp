@@ -101,15 +101,25 @@ int main()
 
 ///delete
 
+//vector<int>data={3,2,1,6,4,2};
+//cout<< "Before delete"<<endl;
+//print(data);
+//data.pop_back();
+//
+//
+//cout << "After delete\n";
+//print(data);
+
+
+
 vector<int>data={3,2,1,6,4,2};
 cout<< "Before delete"<<endl;
 print(data);
-data.pop_back();
-
+//data.pop_back();
+data.clear();
 
 cout << "After delete\n";
 print(data);
-
 
 return 0;
 
