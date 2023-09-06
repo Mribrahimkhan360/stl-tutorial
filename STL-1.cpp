@@ -65,12 +65,13 @@ int main()
 //
 //
 
-vector <int> data = {3,4,1,3,4,3,4,3,4};
+vector <int> data = {1,2,3,4,5,6,7,8,9};
 int ln = data.size();
 
-for(int i = 0; i<ln; ++i)
+for(int i = 2; i<ln-1; ++i)
 {
     cout << data[i] << " ";
+    // 3,4,3,4,3
 }
 
     return 0;
