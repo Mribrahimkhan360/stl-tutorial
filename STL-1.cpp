@@ -31,9 +31,35 @@ int main()
 //    vector<int> data = {1, 2, 3, 4, 5}; /// int data[] = {1, 2, 3, 4, 5}
 //    vector<int> data2 = data;
 //    print(data2);
+        ///Add Element
+//    vector <int> data{1,2,3};
+//    data.push_back(7);
+//    data.push_back(9);
+//    data.push_back(5);
+//    print(data);
 
-    vector<int> data = {1,2,3,4,5};
-    vector<int> data2 = data;
-    print(data2);
+//vector <int> data = {1,2,3};
+//data.insert(data.begin(),7);
+//print(data);
+
+//vector <int> data = {1,2,3};
+//data.insert(data.begin()+1,7);
+//print(data);
+
+
+//vector <int> data = {1,2,3};
+//data.insert(data.end()-1,7);
+//print(data);
+
+//vector <int> data = {1,7,3};
+//data.insert(data.begin()+1,7);
+//print(data);
+//cout << data.front() +1 << endl;
+//cout<< data.back() << endl;
+
+
+
+
+    return 0;
 
 }
