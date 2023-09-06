@@ -65,15 +65,25 @@ int main()
 //
 //
 
+//vector <int> data = {1,2,3,4,5,6,7,8,9};
+//int ln = data.size();
+//
+//for(int i = 2; i<ln-1; ++i)
+//{
+//    cout << data[i] << " ";
+//    // 3,4,3,4,3
+//}
+
+//vector <int> data = {1,2,3,4,5,6,7,8,9};
+//
+//int *d = data.data();
+//cout << d[2];
+
+///Update
+
 vector <int> data = {1,2,3,4,5,6,7,8,9};
-int ln = data.size();
-
-for(int i = 2; i<ln-1; ++i)
-{
-    cout << data[i] << " ";
-    // 3,4,3,4,3
-}
-
-    return 0;
+data[2]=8;
+print(data);
+return 0;
 
 }
