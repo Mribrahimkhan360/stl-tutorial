@@ -57,6 +57,11 @@ int main()
 //cout << data.front() +1 << endl;
 //cout<< data.back() << endl;
 
+vector <int> data = {3,3,5,6,7,8,4,3,2};
+for(int d:data)
+{
+    cout << d <<" ";
+}
 
 
 
