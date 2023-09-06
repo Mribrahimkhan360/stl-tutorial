@@ -51,21 +51,27 @@ int main()
 //data.insert(data.end()-1,7);
 //print(data);
 
-
-    ///Read
 //vector <int> data = {1,7,3};
 //data.insert(data.begin()+1,7);
 //print(data);
 //cout << data.front() +1 << endl;
 //cout<< data.back() << endl;
+//
+//vector <int> data = {3,3,5,6,7,8,4,3,2};
+//for(int d:data)
+//{
+//    cout << d <<" ";
+//}
+//
+//
 
-vector <int> data = {3,3,5,6,7,8,4,3,2};
-for(int d:data)
+vector <int> data = {3,4,1,3,4,3,4,3,4};
+int ln = data.size();
+
+for(int i = 0; i<ln; ++i)
 {
-    cout << d <<" ";
+    cout << data[i] << " ";
 }
-
-
 
     return 0;
 
