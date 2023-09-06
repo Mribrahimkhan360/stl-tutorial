@@ -51,6 +51,8 @@ int main()
 //data.insert(data.end()-1,7);
 //print(data);
 
+
+    ///Read
 //vector <int> data = {1,7,3};
 //data.insert(data.begin()+1,7);
 //print(data);
