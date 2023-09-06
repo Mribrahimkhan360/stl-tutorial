@@ -112,14 +112,34 @@ int main()
 
 
 
-vector<int>data={3,2,1,6,4,2};
-cout<< "Before delete"<<endl;
-print(data);
-//data.pop_back();
-data.clear();
+//vector<int>data={3,2,1,6,4,2};
+//cout<< "Before delete"<<endl;
+//print(data);
+////data.pop_back();
+//data.clear();
+//
+//cout << "After delete\n";
+//print(data);
 
-cout << "After delete\n";
+
+
+//vector <int> data = {1,2,3,4,5,6,7};
+//cout << "Before delete \n";
+//print(data);
+//
+//data.erase(data.begin()+1, data.begin()+4);
+//cout<<"After delete \n";
+//print(data);
+
+
+vector <int> data = {1,2,3,4,5,6,7};
+cout << "Before delete \n";
 print(data);
+
+data.erase(data.begin()+1, data.end()-2);
+cout<<"After delete \n";
+print(data);
+
 
 return 0;
 
