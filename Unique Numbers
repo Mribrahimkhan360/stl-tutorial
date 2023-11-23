@@ -1,0 +1,17 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main() {
+    set<int>v1;
+    int n, num;
+    cin>>n;
+    while(n--){
+        cin>>num;
+        v1.insert(num);
+    }
+
+    for(auto it : v1)
+    {
+        cout<<it<<" ";
+    }
+    return 0;
+}
